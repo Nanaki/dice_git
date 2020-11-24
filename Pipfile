@@ -5,8 +5,11 @@ name = "pypi"
 
 [packages]
 flask = "*"
+gunicorn = "*"
 
 [dev-packages]
+flask-testing = "*"
+nose = "*"
 
 [requires]
 python_version = "3.8"
